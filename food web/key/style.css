@@ -1,0 +1,9 @@
+@keyframes simple{
+from{border-radius: 50%;}
+to{border-radius: 100%;}
+}
+
+#services .box{
+    animation-name: simple;
+    animation-duration: 10s;
+}

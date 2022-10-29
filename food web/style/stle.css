@@ -1,0 +1,230 @@
+
+
+
+.logo{
+  margin-top: 8px;
+}
+
+#nav-bar nav ul{
+  display: flex;
+    gap: 51px;
+    align-items: center;
+    margin-top: 8px;
+    justify-content: right;
+}
+
+#nav-bar nav ul li{
+list-style: none;
+}
+
+#nav-bar nav ul li a{
+text-decoration: none;
+color: white;
+}
+
+header{
+  position: relative;
+}
+
+header::before{
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.52;
+}
+
+#nav-bar ul li :hover{
+  color: rgb(31, 16, 244);
+  background-color: white;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+/* haeder end */
+/* section 2 */
+
+.content1{
+  padding-top: 40px;
+ 
+}
+
+section::before{
+  content: "";
+  background: url(../img/meal1.jpeg);
+  background-size: cover;
+  opacity: 0.888;
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+
+
+
+.content1 h1{
+  text-align: center;
+}
+
+.content1 p{
+  text-align: center;
+}
+
+.btn{
+  margin: 5px 441px;
+
+}
+
+.btn input[type="button"]{
+  border-radius: 31px;
+}
+
+/* service section */
+
+.h-primary{
+  text-align: center;
+  padding-top: 70px;
+}
+.box img{
+  width: 176px;
+  height: 119px;
+  padding: 6px;
+}
+
+#services .box{
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+#services .box img{
+  display: flex;
+  margin: auto;
+}
+
+/* @keyframes #services .box{
+  from{border-radius: 0%;}
+  to{border-radius: 100%;}
+} */
+
+#services .box h2.h-secendary.center{
+  text-align: center;
+
+}
+
+#services .box p.text-center{
+  font-size: 7px
+}
+
+ /* service section end */
+
+ /* client section
+ */
+
+ #client-section{
+
+ }
+
+ #client-section::before{
+  content: "";
+  background: url(../img/meal1.jpeg);
+  position:absolute;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+  opacity: 0.4;
+  display: block;
+  padding-top: 20px;
+ }
+
+
+
+ #our-clients .h-primary-center{
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+ }
+
+.clientimg .img1 img{
+  height: 104px;
+  width: 184px;
+  margin-top: 20px;
+ }
+ .clientimg .img2 img{
+  height: 131px;
+  width: 123px;
+ }
+
+ .clientimg .img3 img{
+  height: 75px;
+  width: 165px;
+  margin-top:28px ;
+ }
+
+ .clientimg .img4 img{
+  height: 144px;
+  width: 238px;
+ }
+
+ .clientspics{
+  padding: 25px 163px;
+ }
+
+ /* <!-- client section end --> */
+
+ /* conatct section start */
+
+ #contact{
+  position: relative;
+ }
+
+ .contactus h1{
+  text-align: center;
+ }
+
+ #contact-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+ }
+
+ #contact::before{
+  content: "";
+  background: url(../img/contact.jpg) no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: -1;
+ }
+
+ #contact-box form{
+  width: 40%;
+ }
+
+ #contact-box label{
+  font-size: 12px ;
+ }
+
+ #contact-box input{
+  width: 100%;
+  padding: 0.5rem;
+ }
+ #contact-box textarea{
+  width: 100%;
+  padding: 0.5rem;
+ }
+
+  /* conatct section end */
+
+  /* footer */
+  footer .center{
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+
+
